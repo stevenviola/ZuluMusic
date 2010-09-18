@@ -32,7 +32,13 @@ body {
     margin: 0px;
     padding: 0px;
 }
-#gallery{
+
+#gallery, #albums, #searchWrapper {
+	margin-top:40px;
+	margin-bottom:70px;
+}
+
+#gallery, #albumList{
     padding: 0px;
 }
 #gallery div, #gallery ul{
@@ -56,6 +62,7 @@ body {
     font-weight: bold;
 }
 #searchForm input{margin-top: 4px;}
+
 .link{
 	cursor:pointer;
 }
@@ -72,8 +79,8 @@ a img{border-style: none;}
     clear:left;
     margin-top:35px;
 }
-#albumList img.poster{margin: 7px 27px 10px 27px;}
-#albumList img.poster:hover{margin: 0px 20px 10px 20px;}
+/* #albumList img.poster{margin: 27px 27px 10px 27px;}
+#albumList img.poster:hover{margin: 20px 20px 10px 20px;} */
 
 #bcelement img{
 	height:30px;
@@ -128,16 +135,29 @@ a img{border-style: none;}
     margin-left:27px;
     margin-right:55px;
 }
+
+#albumList li>div{
+    margin-left:27px;
+    margin-right:55px;
+}
+
+#albumGallery li>div{
+    margin-left:27px;
+    margin-right:55px;
+}
+
 .galleryTitle {
 	font-size: 16px;
+	margin-left:27px;
 }
 
 .galleryArtist {
 	font-size: 14px;
 	font-style: italic;
+	margin-left:27px;
 }
 
-#albums, #gallery {
+#albums {
 	width:90%;
 	position:relative;
 	margin-top:40px;
@@ -185,18 +205,18 @@ img.poster:hover {
 #artistGallery li {
         display: inline-block;
         list-style: none;
-        width: 175px;
+        width: 250px;
         float: left;
-		position:relative;
+		/* position:relative; */
 		text-align: left;
 }
 
 #albumGallery li {
         display: inline-block;
         list-style: none;
-        width: 175px;
+        width: 250px;
         float: left;
-        position:relative;
+        /* position:relative; */
 		text-align: left;
 }
 #albumInfo div {

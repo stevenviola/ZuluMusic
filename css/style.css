@@ -71,7 +71,7 @@ body {
 	color:#35acc5;
 }
 
-a {color:#67C8FF;font-size:14px;}
+a {color:#47C283;font-size:14px;}
 a.ext {padding-left:14px;background:url("/img/ext.png") no-repeat;}
 a img{border-style: none;}
 
@@ -188,7 +188,7 @@ img.poster {
 img.poster:hover { 
     margin: 20px 20px 3px 20px;
 	max-width: 200px;
-	border:7px solid #67C8FF;
+	border:7px solid #47C283;
 }
 
 .title {

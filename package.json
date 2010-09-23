@@ -26,7 +26,7 @@
     "bt:mixpanel": "5fcc53980ee8e2260b04ed6b64bcd51b",
     "author": "Steven Viola <steve@stevenviola.com>", 
     "site": "http://www.stevenviola.com/zulu", 
-    "bt:update_url": "http://www.stevenviola.com/zulu/ZuluMusic.btapp", 
+    "bt:update_url": "http://apps.bittorrent.com/zulu/ZuluMusic.btapp", 
     "version": "0.1", 
     "bt:description": "Easily download free music.", 
     "keywords": [
